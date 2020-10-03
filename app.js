@@ -35,7 +35,7 @@ app.post("/", function(req,res){
   };
 
   const jsonData = JSON.stringify(data);
-  const url = "https://us17.api.mailchimp.com/3.0/lists/dd27ad8250-fail";
+  const url = "https://us17.api.mailchimp.com/3.0/lists/dd27ad8250";
   const options = {
     method: "POST",
     auth: "larsole:4c29994d06065973a9397c7f6f6d3ee1-us17",
